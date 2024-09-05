@@ -1,10 +1,10 @@
 def list_to_dictonary():
 
-    keys = [1,2,3]
-    values = ["one","two","three"]
+    list1 = ["one","two","three"]
+    list2 = [1,2,3]
 
-    dict1 = dict(zip(keys,values))
+    d = dict(zip(list1,list2))
 
-    print(dict1)
+    print(d)
 
 list_to_dictonary()    
