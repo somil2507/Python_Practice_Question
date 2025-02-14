@@ -1,6 +1,6 @@
-def dictonary_to_tuples():
+def dict_to_tuples():
 
-    d = {'one': 1, 'two': 2, 'three': 3}
+    d = {"one":1, "two":2, "three":3}
 
     l1 = []
     l2 = []
@@ -8,12 +8,12 @@ def dictonary_to_tuples():
     for i in d.keys():
         l1.append(i)
     for j in d.values():
-        l2.append(j)    
+        l2.append(j)
 
     t1 = tuple(l1)
-    t2 = tuple(l2)
+    t2 = tuple(l2)    
 
     print(t1)
-    print(t2)  
+    print(t2)        
 
-dictonary_to_tuples()        
+dict_to_tuples()    

@@ -1,17 +1,23 @@
-def check_prime():
+from itertools import count
 
-    num = 3
+
+def prime_notprime():
+
+    num = int(input("Enter a Number : ", ))
     count = 0
 
     if num > 1:
         for i in range(1,num+1):
-            if num % i == 0:
-                count = count + i
-
+            if num%i==0:
+                count = count + 1 
         if count == 2:
-            print("Prime")
+            print("Prime Number")
 
         else:
-            print("Not Prime")            
+            print("Not a Prime Number")       
 
-check_prime()                    
+    else:
+        print("Please enter a valid number greater than 1.")
+
+
+prime_notprime()

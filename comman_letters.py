@@ -1,14 +1,12 @@
-def find_common_letters():
+def comman_letters():
+    str1 = "SOMIL"
+    str2 = "SHANU"
 
-    str1 = "NAINA"
-    str2 = "REENA"
+    set1 = set(str1)
+    set2 = set(str2)
 
-    st1 = set(str1)
-    st2 = set(str2)
+    lst = set1 & set2
 
-    common = st1 & st2
+    print(lst)
 
-    print(common)
-
-
-find_common_letters()
+comman_letters()
