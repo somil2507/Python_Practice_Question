@@ -9,3 +9,12 @@ def reverse_string():
     print(result_str)
 
 reverse_string()    
+
+
+input_str = "somil"
+reversed_str =""
+ 
+while input_lst:
+    reversed_str += input_lst.pop()
+
+print(reversed_str)    
